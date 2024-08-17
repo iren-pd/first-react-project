@@ -13,7 +13,7 @@ export const Body = () => {
 
     return (
         <main className="main">
-            <div className="container">
+            <div className="container p-4">
                 <h2 className={title}>Title</h2>
                 <p className={`text${toggle ? '' : ' hide'}`}>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
