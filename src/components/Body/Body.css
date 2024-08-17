@@ -1,0 +1,13 @@
+.main {
+    background-color: aqua;
+    transition: 0.5;
+}
+
+.hide {
+    display: none;
+}
+
+.title-white {
+    color: #fff;
+    transition: all 1s;
+}
