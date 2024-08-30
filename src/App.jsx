@@ -1,11 +1,14 @@
-import { Header, Body, Footer } from './components';
-
+import { Footer, Header } from './components';
+import { AppRouter } from './router/AppRouter';
 
 export const App = () => {
     return (
         <>
             <Header />
-            <Body />
+            {/* <Body /> */}
+            <div className="container p-6">
+                <AppRouter />
+            </div>
             <Footer />
             {/* <Footer /> Alt+Shift+вниз/вверх клонировать */}
         </>
